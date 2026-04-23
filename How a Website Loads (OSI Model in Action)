@@ -3,3 +3,54 @@ I Type in a website (example: google.com) into my browser and press enter. Here 
 
 ---
 
+7. Application Layer
+This is where the user interacts with the network
+Browser sends request to access the website
+
+What is Happening:
+Browser prepares an HTTPS/HTTP request to send to sever
+Browser can also use DNS to translate the website (google.com) into an IP address
+
+My Understanding: 
+This is the layer where the application talks to the network
+
+---
+
+6. Presentation Layer 
+This layer acts as a translator for data to and from the application layer (layer 7) 
+
+What is happening:
+Data is formatted so that both sides understand it 
+Data is encrypted at this layer using HTTPS 
+
+My Understanding:
+This layer acts as a translator for data and as an encryptor
+
+---
+
+5. Session Layer
+This layer creates and maintains a stable connection between computer and server 
+
+What is Happening: 
+Establishes a secure connection between my computer and the web server im trying to request/recieve data from
+When data is being sent from computer to server or vice versa, makes sure it establishes a secure connection
+
+My understanding:
+This layer keeps the connection between the webserver and computer stable
+
+---
+
+4. Transport Layer (IMPORTANT)
+Decides what protocol to use when sending and receiving data either using TCP or UDP
+
+What is Happening: 
+TCP is used when you need to send and receive data accurately, TCP is slower, but more reliable.
+TCP is commonly used for emails, texts, etc.
+UDP is used for faster data recieves/requests, and is primarily used in gaming, live video streaming, etc. But doesn't check if the data you're requesting/receiving is accurate.
+
+My understanding:
+This layer makes sure whether data gets sent accurately, but slowly (TCP), or fast but not reliable (UDP)
+
+
+
+
